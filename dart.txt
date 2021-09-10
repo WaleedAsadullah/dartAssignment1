@@ -1,0 +1,48 @@
+
+void main() {
+  
+ 
+var maths = 90;
+var science = 50;
+var urdu = 60;
+var islamiyat = 65;
+var english = 85;
+  
+var total_obtain = maths+science+urdu+islamiyat+english;
+var total = 500;
+  
+ var parcent = (total_obtain/total)*100;
+ print("Percentage ${parcent}%");
+  
+  
+if(parcent>=80){
+
+  print("Grade A+");
+
+}else if(parcent>=70){
+
+  print("Grade A");
+
+}else if(parcent>=60){
+
+  print("Grade B");
+
+}else if(parcent>=50){
+
+  print("Grade C");
+
+}else if(parcent>=40){
+
+  print("Grade D");
+
+}else{
+
+  print("Fail");
+  }
+  
+  
+ }
+  
+  
+  
+  
